@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.className} antialiased bg-(--navy-900)`}
+        className={`${openSans.className} antialiased bg-(--navy-900) relative` }
       >
         {children}
       </body>
