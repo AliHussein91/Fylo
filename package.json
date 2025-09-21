@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t"
   },
   "dependencies": {
     "next": "15.5.3",
