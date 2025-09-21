@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
+import favicon from '../../public/favicon-32x32.png'
 import "./globals.css";
 
 const openSans = Open_Sans({
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+         <link rel="icon" type="image/png" sizes="32x32" href={favicon.src} />
+      </head>
       <body
         className={`${openSans.className} antialiased bg-(--navy-900) relative` }
       >

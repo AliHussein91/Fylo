@@ -5,6 +5,8 @@ import Intro from './components/Intro';
 import NavBar from './components/NavBar';
 import Features from './components/Features';
 import StayProductive from './components/StayProductive';
+import Testimonials from './components/Testimonials';
+import SubscriptionCard from './components/SubscriptionCard';
 
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
 				<Intro />
 				<Features />
 				<StayProductive />
+				<Testimonials />
+				<SubscriptionCard />
 			</main>
 			<Footer />
 		</>
